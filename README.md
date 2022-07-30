@@ -1,2 +1,2 @@
-#JS currency exchange app
+# JS currency exchange app
 wip
