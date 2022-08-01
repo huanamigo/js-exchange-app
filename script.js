@@ -38,8 +38,7 @@ currencyTwo.addEventListener('change', calculate);
 
 swapBtn.addEventListener('click', () => {
   let temp = currencyOne.value;
-  console.log(temp);
-  currencyOne.value = 'USD';
-  console.log(currencyOne.value);
-  currencyOne.value = temp;
+  currencyOne.value = currencyTwo.value;
+  currencyTwo.value = temp;
+  calculate();
 });
