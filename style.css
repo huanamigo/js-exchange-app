@@ -10,13 +10,13 @@ body {
   align-items: center;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
-  background-color: #29303b;
+  background-color: #040505;
 }
 
 .wrapper {
   padding: 50px;
   width: 800px;
-  background-image: linear-gradient(#3f4b59, #333d46);
+  background-color: #1b1e22;
   color: #fff;
   text-align: center;
   border: 1px solid #1c232d;
